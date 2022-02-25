@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    transition: all ease-in-out 0.15s 0.15s;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+hr{
+    background-color: hsl(215, 32%, 27%);
+    margin: 5% 0 0 0;
+    border-radius: 2px;
+    border-style: none;
+    height: 2px;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar{
+    height: 40px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.background{
+    padding: 2.3em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width: min-content;
+    height: min-content;
+    /* margin: auto; */
+}
+
+.creation{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.creation2{
+    display: flex;
+    flex-direction: column;
+}
+
+.equilibrium{
+    height: 250px;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.equilibrium:hover{
+    opacity: 0.3;
+    /* background-image: url(images/icon-view.svg); */
+}
+
+.eth{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 110%;
+}
+
+.eth-text{
+    margin-left: 5%;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.images{
+    position: relative;
+}
+
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.lower-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.text2{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+    
+}
+
+.text3{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: 300;
+}
+
+.text4{
+    color: hsl(215, 51%, 70%);
+}
+
+.time-left{
+    display: flex;
+    justify-content: flex-end;
+    width: 150%;
+}
+
+.view{
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+    z-index: 1;
+}
+
+.view2{
+    background-color: hsla(178, 100%, 50%, 0);
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    border-radius: 12px;
+}
+
+.view2:hover{
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.6);
+}
